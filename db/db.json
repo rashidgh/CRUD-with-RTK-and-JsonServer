@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "name": "Rashid",
+      "role": "React",
+      "id": 1
+    },
+    {
+      "name": "Aliston",
+      "role": "React",
+      "id": 5
+    },
+    {
+      "name": "Krishna",
+      "role": "Account Exe",
+      "id": 6
+    },
+    {
+      "name": "Divin",
+      "role": "React",
+      "id": 7
+    },
+    {
+      "name": "Vaibav",
+      "role": "Frontend",
+      "id": 8
+    },
+    {
+      "name": "Asif",
+      "role": "Business",
+      "id": 9
+    },
+    {
+      "name": "Saquib",
+      "role": "Teacher",
+      "id": 10
+    },
+    {
+      "name": "Harish",
+      "role": "Teacher",
+      "id": 11
+    }
+  ]
+}
