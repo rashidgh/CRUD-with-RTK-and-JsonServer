@@ -34,6 +34,18 @@ const UpdateData = () => {
   };
   let handleSubmit = async e => {
     e.preventDefault();
+    if (!formData.name && !role) {
+      toast.error("Credentials can't be empty");
+      return;
+    }
+    if (!formData.name) {
+      toast.error("Name can't be empty");
+      return;
+    }
+    if (!formData.role) {
+      toast.error("Role can't be empty");
+      return;
+    }
     try {
       await updateData({ id, data: formData }).unwrap();
       toast.success("employee updated");
